@@ -1,23 +1,27 @@
 print("------------------------------------------")
-print("---El resultado de las operaciones son:---")
+print("--------MAYOR DE 2 NUMEROS ENTEROS:-------")
 print("------------------------------------------")
 
 
 # input
 
-minutos = int(input("ingrese los minutos de la llamada: "))
+x = int(input("Ingrese el primer número: "))
+y = int(input("Ingrese el segundo número: "))
 
-# procesing
-
-if x>y:
-    costo = 300
-
-else: 
-    costo = (minutos * 50 ) + 300 - 150
-
-
-
-
+#processing
+if x == y:
+    # output
+    print(" los numeros son iguales....")
+    mayor = x
+else:
+    if x > y:
+        mayor = x
+    else:
+        mayor = y 
+    
 # output
+print("------------------------------------------")
+print("----------EL NUMERO MAYO ES --------------")
+print("------------------------------------------")
 
-print("el costo de la llamada es: " + str (costo))
+print("TOTAL A PAGAR DE LA LLAMADA: " + str(x) + " y " + str (y) + " es " + str(mayor))
