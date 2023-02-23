@@ -10,18 +10,14 @@ y = int(input("Ingrese el segundo número: "))
 
 #processing
 if x == y:
-    # output
-    print(" los numeros son iguales....")
-    mayor = x
+    print(" los numeros son iguales: ....")
 else:
-    if x > y:
+    if x>y:
         mayor = x
     else:
         mayor = y 
-    
-# output
-print("------------------------------------------")
-print("----------EL NUMERO MAYO ES --------------")
-print("------------------------------------------")
+        # Output
+        print("EL MAYOR ENTRE " + str(x) + " y " + str (y) + " es " + str(mayor))
 
-print("EL MAYOR ENTRE: " + str(x) + " y " + str (y) + " es " + str(mayor))
+    
+
