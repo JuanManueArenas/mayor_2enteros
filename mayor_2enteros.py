@@ -24,4 +24,4 @@ print("------------------------------------------")
 print("----------EL NUMERO MAYO ES --------------")
 print("------------------------------------------")
 
-print("TOTAL A PAGAR DE LA LLAMADA: " + str(x) + " y " + str (y) + " es " + str(mayor))
+print("EL MAYOR ENTRE: " + str(x) + " y " + str (y) + " es " + str(mayor))
