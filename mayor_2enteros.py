@@ -17,7 +17,7 @@ else:
     else:
         mayor = y 
         # Output
-        print("EL MAYOR ENTRE " + str(x) + " y " + str (y) + " es " + str(mayor))
+    print("EL MAYOR ENTRE " + str(x) + " y " + str (y) + " es " + str(mayor))
 
     
 
